@@ -1,0 +1,21 @@
+<project>
+    <name>obsolete</name>
+    <packages default="icecube.daq.common">
+    icecube.daq.testUtil
+    </packages>
+    <uses>
+        <libs>
+            icebucket.jar
+            daq-common.jar
+        </libs>
+        <tools>
+        </tools>
+    </uses>
+    <test>
+        <uses>
+            <libs></libs>
+            <tools>
+            </tools>
+        </uses>
+    </test>
+</project>
